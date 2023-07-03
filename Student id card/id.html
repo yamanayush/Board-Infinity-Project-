@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student ID Card Generator</title>
+    <link rel="stylesheet" href="id.css">
+</head>
+
+<body>
+    <div class="shape">
+        <h1>Student ID Card Generator</h1>
+    </div>
+    <div class="container">
+        <div class="left-section">
+            <form>
+                <label for="name">Enter Name:</label>
+                <input type="text" id="name" required>
+
+                <label for="college">Enter College Name:</label>
+                <input type="text" id="college" required>
+
+                <label for="location">Enter Location:</label>
+                <input type="text" id="location" required>
+
+                <label for="photo">Enter Student's Picture:</label>
+                <input type="file" id="photo" accept="image/*" required>
+
+                <button type="button" onclick="generateIDCard()">Generate ID Card</button>
+            </form>
+        </div>
+
+        <div class="right-section">
+            <div id="idCardContainer" style="display: none;">
+                <div class="id-card">
+                    <img id="studentPhotoDisplay" src="" alt="Student Photo">
+                    <p id="studentNameDisplay"></p>
+                    <p id="studentCollegeDisplay"></p>
+                    <p id="studentLocationDisplay"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="id.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+body {
+    background-color: #f2f7fd;
+    font-family: Arial, sans-serif;
+  }
+
+  .container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f2f2f2;
+    border: 2px solid #4d81b9;
+    border-radius: 10px;
+    display: flex;
+  }
+
+  .left-section {
+    flex: 1;
+    padding-right: 40px;
+  }
+
+  .right-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  h1 {
+    text-align: center;
+    color: #4d81b9;
+    margin-bottom: 40px;
+  }
+
+  form {
+    margin-bottom: 40px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+
+  button {
+    background-color: #4d81b9;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #3d6a96;
+  }
+
+  .id-card {
+    background-color: #fff;
+    border: 2px solid #4d81b9;
+    border-radius: 10px;
+    padding: 40px;
+    display: inline-block;
+  }
+
+  .id-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+
+  .id-card p {
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
